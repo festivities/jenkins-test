@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/festivities/jenkins-test#readme",
   "dependencies" : {
-    "jasmine": "latest"
+    "jasmine": "latest",
+    "clear": "latest"
   }
 
 }
