@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/festivities/jenkins-test/issues"
   },
-  "homepage": "https://github.com/festivities/jenkins-test#readme"
+  "homepage": "https://github.com/festivities/jenkins-test#readme",
+  "dependencies" : {
+    "jasmine": "latest"
+  }
+
 }

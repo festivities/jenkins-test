@@ -20,7 +20,9 @@ node {
 
     stage('Test') {
         dir('jasmine-test') {
-            sh "npm install jasmine -g"
+            sh "node -v"
+            sh "npm prune"
+            sh "npm install"
             sh "npm test"
         }
     }
