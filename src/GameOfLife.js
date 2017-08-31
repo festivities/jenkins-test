@@ -102,7 +102,7 @@ function display (array) {
 }
 
 if (!inTest) {
-    var finalArray = gameOfLife(50, 50, 50);
+    var finalArray = gameOfLife(10, 10, 1);
 }
 
 module.exports = {
