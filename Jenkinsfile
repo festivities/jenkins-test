@@ -19,6 +19,7 @@ node {
     }
 
     stage('Test') {
+        sh "pwd"
         sh "jasmine"
     }
 }
