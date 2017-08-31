@@ -20,6 +20,7 @@ node {
 
     stage('Test') {
         dir('jasmine-test') {
+            sh "npm install jasmine -g"
             sh "npm test"
         }
     }
