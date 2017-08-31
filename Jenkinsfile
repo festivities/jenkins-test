@@ -20,8 +20,7 @@ node {
 
     stage('Test') {
         dir('jasmine-test') {
-            sh "pwd"
-            sh "jasmine"
+            sh "npm test"
         }
     }
 }
