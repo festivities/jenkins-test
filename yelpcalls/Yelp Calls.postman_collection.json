@@ -1,0 +1,221 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Yelp Calls",
+		"_postman_id": "50db0afd-b804-8d15-7839-6d06e37c57ab",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/businesses/search crab pot",
+			"request": {
+				"url": {
+					"raw": "https://api.yelp.com/v3/businesses/search?term=delis&latitude=47.6062&longitude=122.3321",
+					"protocol": "https",
+					"host": [
+						"api",
+						"yelp",
+						"com"
+					],
+					"path": [
+						"v3",
+						"businesses",
+						"search"
+					],
+					"query": [
+						{
+							"key": "term",
+							"value": "delis",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "latitude",
+							"value": "47.6062",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "longitude",
+							"value": "122.3321",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer _6plbaPqA2_SlI1y_g1ETpETy85qjxNs7ZJ2YDp-JndIy9IRqNP0j45iX1WEpz5fFFf3zWv17bt6j9rl6uxp240P3xzt8XzdOiiRe1OO-faqQjUzuAFxM_ckjqCpWXYx",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/businesses/search mcdonalds",
+			"request": {
+				"url": {
+					"raw": "https://api.yelp.com/v3/businesses/search?term=mcdonalds&location=Seattle, WA",
+					"protocol": "https",
+					"host": [
+						"api",
+						"yelp",
+						"com"
+					],
+					"path": [
+						"v3",
+						"businesses",
+						"search"
+					],
+					"query": [
+						{
+							"key": "term",
+							"value": "mcdonalds",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "latitude",
+							"value": "47.6062",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						},
+						{
+							"key": "longitude",
+							"value": "122.3321",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						},
+						{
+							"key": "location",
+							"value": "Seattle, WA",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer _6plbaPqA2_SlI1y_g1ETpETy85qjxNs7ZJ2YDp-JndIy9IRqNP0j45iX1WEpz5fFFf3zWv17bt6j9rl6uxp240P3xzt8XzdOiiRe1OO-faqQjUzuAFxM_ckjqCpWXYx",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/autocomplete crab pot",
+			"request": {
+				"url": {
+					"raw": "https://api.yelp.com/v3/autocomplete?text=crab po&latitude=47.6062&longitude=122.3321",
+					"protocol": "https",
+					"host": [
+						"api",
+						"yelp",
+						"com"
+					],
+					"path": [
+						"v3",
+						"autocomplete"
+					],
+					"query": [
+						{
+							"key": "text",
+							"value": "crab po",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "latitude",
+							"value": "47.6062",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "longitude",
+							"value": "122.3321",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer _6plbaPqA2_SlI1y_g1ETpETy85qjxNs7ZJ2YDp-JndIy9IRqNP0j45iX1WEpz5fFFf3zWv17bt6j9rl6uxp240P3xzt8XzdOiiRe1OO-faqQjUzuAFxM_ckjqCpWXYx",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/autocomplete mcdonalds",
+			"request": {
+				"url": {
+					"raw": "https://api.yelp.com/v3/autocomplete?text=mcdon&latitude=47.6062&longitude=122.3321",
+					"protocol": "https",
+					"host": [
+						"api",
+						"yelp",
+						"com"
+					],
+					"path": [
+						"v3",
+						"autocomplete"
+					],
+					"query": [
+						{
+							"key": "text",
+							"value": "mcdon",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "latitude",
+							"value": "47.6062",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "longitude",
+							"value": "122.3321",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer _6plbaPqA2_SlI1y_g1ETpETy85qjxNs7ZJ2YDp-JndIy9IRqNP0j45iX1WEpz5fFFf3zWv17bt6j9rl6uxp240P3xzt8XzdOiiRe1OO-faqQjUzuAFxM_ckjqCpWXYx",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
